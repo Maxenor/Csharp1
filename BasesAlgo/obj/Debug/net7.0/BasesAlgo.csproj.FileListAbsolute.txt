@@ -1,0 +1,15 @@
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\bin\Debug\net7.0\BasesAlgo.exe
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\bin\Debug\net7.0\BasesAlgo.deps.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\bin\Debug\net7.0\BasesAlgo.runtimeconfig.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\bin\Debug\net7.0\BasesAlgo.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\bin\Debug\net7.0\BasesAlgo.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\BasesAlgo.csproj.AssemblyReference.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\BasesAlgo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\BasesAlgo.AssemblyInfoInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\BasesAlgo.AssemblyInfo.cs
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\BasesAlgo.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\BasesAlgo.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\refint\BasesAlgo.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\BasesAlgo.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\BasesAlgo.genruntimeconfig.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\BasesAlgo\obj\Debug\net7.0\ref\BasesAlgo.dll

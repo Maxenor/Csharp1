@@ -1,0 +1,15 @@
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\bin\Debug\net7.0\Loops Array.exe
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\bin\Debug\net7.0\Loops Array.deps.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\bin\Debug\net7.0\Loops Array.runtimeconfig.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\bin\Debug\net7.0\Loops Array.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\bin\Debug\net7.0\Loops Array.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\Loops Array.csproj.AssemblyReference.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\Loops Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\Loops Array.AssemblyInfoInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\Loops Array.AssemblyInfo.cs
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\Loops Array.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\Loops Array.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\refint\Loops Array.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\Loops Array.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\Loops Array.genruntimeconfig.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Loops Array\obj\Debug\net7.0\ref\Loops Array.dll
