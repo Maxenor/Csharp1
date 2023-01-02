@@ -1,4 +1,4 @@
-﻿namespace BasesAlgo
+﻿namespace LoopArray
 {
     class Program
     {

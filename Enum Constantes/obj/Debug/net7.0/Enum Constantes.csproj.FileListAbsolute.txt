@@ -1,0 +1,15 @@
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\bin\Debug\net7.0\Enum Constantes.exe
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\bin\Debug\net7.0\Enum Constantes.deps.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\bin\Debug\net7.0\Enum Constantes.runtimeconfig.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\bin\Debug\net7.0\Enum Constantes.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\bin\Debug\net7.0\Enum Constantes.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\Enum Constantes.csproj.AssemblyReference.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\Enum Constantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\Enum Constantes.AssemblyInfoInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\Enum Constantes.AssemblyInfo.cs
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\Enum Constantes.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\Enum Constantes.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\refint\Enum Constantes.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\Enum Constantes.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\Enum Constantes.genruntimeconfig.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Enum Constantes\obj\Debug\net7.0\ref\Enum Constantes.dll

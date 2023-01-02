@@ -1,0 +1,15 @@
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\bin\Debug\net7.0\Programmes.exe
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\bin\Debug\net7.0\Programmes.deps.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\bin\Debug\net7.0\Programmes.runtimeconfig.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\bin\Debug\net7.0\Programmes.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\bin\Debug\net7.0\Programmes.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\Programmes.csproj.AssemblyReference.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\Programmes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\Programmes.AssemblyInfoInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\Programmes.AssemblyInfo.cs
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\Programmes.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\Programmes.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\refint\Programmes.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\Programmes.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\Programmes.genruntimeconfig.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\Programmes\obj\Debug\net7.0\ref\Programmes.dll
