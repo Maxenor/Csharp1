@@ -1,0 +1,15 @@
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\bin\Debug\net7.0\CSharp1.exe
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\bin\Debug\net7.0\CSharp1.deps.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\bin\Debug\net7.0\CSharp1.runtimeconfig.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\bin\Debug\net7.0\CSharp1.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\bin\Debug\net7.0\CSharp1.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\CSharp1.csproj.AssemblyReference.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\CSharp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\CSharp1.AssemblyInfoInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\CSharp1.AssemblyInfo.cs
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\CSharp1.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\CSharp1.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\refint\CSharp1.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\CSharp1.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\CSharp1.genruntimeconfig.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CSharp1\obj\Debug\net7.0\ref\CSharp1.dll
