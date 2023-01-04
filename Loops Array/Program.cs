@@ -1,4 +1,4 @@
-﻿namespace LoopArray
+﻿namespace Loops_Array
 {
     class Program
     {

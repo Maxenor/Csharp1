@@ -1,0 +1,15 @@
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\bin\Debug\net7.0\CompteBancaire.exe
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\bin\Debug\net7.0\CompteBancaire.deps.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\bin\Debug\net7.0\CompteBancaire.runtimeconfig.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\bin\Debug\net7.0\CompteBancaire.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\bin\Debug\net7.0\CompteBancaire.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\CompteBancaire.csproj.AssemblyReference.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\CompteBancaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\CompteBancaire.AssemblyInfoInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\CompteBancaire.AssemblyInfo.cs
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\CompteBancaire.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\CompteBancaire.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\refint\CompteBancaire.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\CompteBancaire.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\CompteBancaire.genruntimeconfig.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\CompteBancaire\obj\Debug\net7.0\ref\CompteBancaire.dll

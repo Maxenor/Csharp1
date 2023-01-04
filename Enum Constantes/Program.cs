@@ -1,4 +1,4 @@
-﻿namespace EnumConstantes
+﻿namespace Enum_Constantes
 {
     class Program
     {
@@ -33,7 +33,7 @@
             joursDeLaSemaine dayName = (joursDeLaSemaine)dayNumber;
             Console.WriteLine("Le jour correspondant est {0}", dayName);
         }
-        
+
         public static void CalculAge()
         {
             Console.WriteLine("Veuillez saisir votre âge :");
@@ -94,7 +94,7 @@
             Console.Write("Pouces: ");
             pouces = int.Parse(Console.ReadLine());
 
-            pouceTotal = (pied * 12) + pouces;
+            pouceTotal = pied * 12 + pouces;
 
             Console.WriteLine($"Pouces Totaux: {pouceTotal}");
         }

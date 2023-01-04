@@ -1,0 +1,15 @@
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\bin\Debug\net7.0\TP2 Exo 5.exe
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\bin\Debug\net7.0\TP2 Exo 5.deps.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\bin\Debug\net7.0\TP2 Exo 5.runtimeconfig.json
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\bin\Debug\net7.0\TP2 Exo 5.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\bin\Debug\net7.0\TP2 Exo 5.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\TP2 Exo 5.csproj.AssemblyReference.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\TP2 Exo 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\TP2 Exo 5.AssemblyInfoInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\TP2 Exo 5.AssemblyInfo.cs
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\TP2 Exo 5.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\TP2 Exo 5.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\refint\TP2 Exo 5.dll
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\TP2 Exo 5.pdb
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\TP2 Exo 5.genruntimeconfig.cache
+C:\Users\Maxime\source\repos\Maxenor\Csharp1\TP2 Exo 5\obj\Debug\net7.0\ref\TP2 Exo 5.dll

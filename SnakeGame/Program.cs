@@ -21,6 +21,8 @@ namespace SnakeGame
         private Position foodPosition;
         private Direction currentDirection;
         private int score;
+        Direction? direction = null;
+
 
         public SnakeGame()
         {
@@ -36,24 +38,12 @@ namespace SnakeGame
         {
             while (true)
             {
+                System.Threading.Thread.Sleep(25);
                 Update();
                 Render();
-
-                ConsoleKeyInfo keyInfo = Console.ReadKey();
-                switch (keyInfo.Key)
+                while (Console.KeyAvailable && !direction.HasValue)
                 {
-                    case ConsoleKey.UpArrow:
-                        currentDirection = Direction.Up;
-                        break;
-                    case ConsoleKey.DownArrow:
-                        currentDirection = Direction.Down;
-                        break;
-                    case ConsoleKey.LeftArrow:
-                        currentDirection = Direction.Left;
-                        break;
-                    case ConsoleKey.RightArrow:
-                        currentDirection = Direction.Right;
-                        break;
+                    KeyPressed();
                 }
             }
         }
@@ -70,6 +60,7 @@ namespace SnakeGame
 
         private void Render()
         {
+            Console.CursorVisible = false;
             Console.SetCursorPosition(0, 0);
             Console.WriteLine("Score: {0}", this.score);
             for (int y = 0; y < GRID_SIZE_Y; y++)
@@ -92,8 +83,8 @@ namespace SnakeGame
 
                     // affichage
                     if (isSnakeHere)
-                    {
-                        Console.Write("@");
+                        {
+                        Console.Write("@", ConsoleColor.Red);
                     }
                     else if (isFood)
                     {
@@ -104,11 +95,28 @@ namespace SnakeGame
                         Console.Write("-");
                     }
                 }
-
                 Console.WriteLine();
             }
         }
-
+        private void KeyPressed()
+        {
+            ConsoleKeyInfo keyInfo = Console.ReadKey();
+            switch (keyInfo.Key)
+            {
+                case ConsoleKey.UpArrow:
+                    currentDirection = Direction.Up;
+                    break;
+                case ConsoleKey.DownArrow:
+                    currentDirection = Direction.Down;
+                    break;
+                case ConsoleKey.LeftArrow:
+                    currentDirection = Direction.Left;
+                    break;
+                case ConsoleKey.RightArrow:
+                    currentDirection = Direction.Right;
+                    break;
+            }
+        }
         private void MoveSnake()
         {
             Position head = snakePositions[0];
@@ -171,7 +179,8 @@ namespace SnakeGame
                 bool isValid = true;
                 foreach (Position pos in snakePositions)
                 {
-                    if (pos.X == x && pos.Y == y)
+                    if (pos.X == x && pos.Y == y)   
+
                     {
                         isValid = false;
                         break;
