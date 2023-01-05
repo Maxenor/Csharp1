@@ -1,91 +1,103 @@
-﻿namespace TP2_Exo_8
+﻿using System;
+using System.Collections.Generic;
+using static TP2_Exo_10.Program;
+
+namespace TP2_Exo_10
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            Etudiant etu1 = new Etudiant("Michon", "Maxime", 24);
-            Etudiant etu2 = new Etudiant("Koprulu", "Ilhan", 20);
-            Console.WriteLine(etu1.GetNomComplet());
+            
 
         }
-
-        public class Etudiant
+        public static int SumList(List<int> nums)
         {
-            public string nom;
-            public string prenom;
-            public int age;
-
-            public Etudiant(string nom, string prenom, int age)
+            int sum = 0;
+            foreach (int num in nums)
             {
-                this.nom = nom;
-                this.prenom = prenom;
-                this.age = age;
+                sum += num;
+            }
+            return sum;
+        }
+
+        public class Pile<T>
+        {
+            private List<T> pile;
+
+            public Pile()
+            {
+                pile = new List<T>();
             }
 
-            public string GetNomComplet()
+            public void Push(T element)
             {
-                return this.prenom + " " + this.nom;
+                pile.Add(element);
             }
 
-            public bool EstMajeur()
+            public T Pop()
             {
-                return this.age >= 18;
+                if (pile.Count == 0)
+                {
+                    throw new InvalidOperationException("La pile est vide");
+                }
+
+                T element = pile[pile.Count - 1];
+                pile.RemoveAt(pile.Count - 1);
+                return element;
+            }
+            public int Count()
+            {
+                return pile.Count;
             }
         }
 
-        public class Formation
+
+        public class File<T>
         {
-            public List<Etudiant> ListeEtudiants;
+            private List<T> elements;
 
-            public Formation()
+            public File()
             {
-                ListeEtudiants = new List<Etudiant>();
+                this.elements = new List<T>();
             }
 
-            public double GetMoyenneAge()
+            public void Enqueue(T element)
             {
-                double moyenne = 0;
-                foreach (Etudiant etudiant in ListeEtudiants)
-                {
-                    moyenne += etudiant.age;
-                }
-                return moyenne / ListeEtudiants.Count;
+                this.elements.Add(element);
+            }
+            public T Dequeue()
+            {
+                if (this.elements.Count == 0)
+                    throw new InvalidOperationException("La file est vide");
+
+                T element = this.elements[0];
+                this.elements.RemoveAt(0);
+                return element;
+            }
+            public int Count()
+            {
+                return elements.Count;
+            }
+        }
+
+        public class Dictionnaire<TKey, TValue>
+        {
+            private Dictionary<TKey, TValue> dictionnaire = new Dictionary<TKey, TValue>();
+
+            public void Add(TKey key, TValue value)
+            {
+                dictionnaire.Add(key, value);
             }
 
-            public Etudiant ChercheParNom(string nom)
+            public TValue GetValue(TKey key)
             {
-                foreach (Etudiant etudiant in ListeEtudiants)
-                {
-                    if (etudiant.nom == nom)
-                    {
-                        return etudiant;
-                    }
-                }
-                return null;
+                return dictionnaire[key];
             }
 
-            public Etudiant ChercheParNomEtPrenom(string nom, string prenom)
+            public int Count()
             {
-                foreach (Etudiant etudiant in ListeEtudiants)
-                {
-                    if (etudiant.nom == nom && etudiant.prenom == prenom)
-                    {
-                        return etudiant;
-                    }
-                }
-                return null;
-            }
-
-            public void printMajeurs()
-            {
-                foreach (Etudiant etudiant in ListeEtudiants)
-                {
-                    if (etudiant.EstMajeur())
-                    {
-                        Console.WriteLine(etudiant.GetNomComplet());
-                    }
-                }
+                return dictionnaire.Count;
             }
         }
     }

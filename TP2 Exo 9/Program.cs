@@ -36,7 +36,7 @@
 
         public class Formation
         {
-            public List<Etudiant> ListeEtudiants;
+            public List<int> ListeEtudiants;
 
             public Formation()
             {

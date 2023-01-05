@@ -11,8 +11,8 @@
     // définition des attributs
     public class SnakeGame
     {
-        private const int GRID_SIZE_X = 100;
-        private const int GRID_SIZE_Y = 20;
+        private const int GRID_SIZE_X = 75;
+        private const int GRID_SIZE_Y = 25;
         private int[] grid_x;
         private int[] grid_y;
         private List<Position> snakePositions;
@@ -36,7 +36,7 @@
         {
             while (true)
             {
-                System.Threading.Thread.Sleep(25);
+                System.Threading.Thread.Sleep(50);
                 if (Console.KeyAvailable && !direction.HasValue)
                 {
                     KeyPressed();
