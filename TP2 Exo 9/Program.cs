@@ -7,7 +7,7 @@
             Etudiant etu1 = new Etudiant("Michon", "Maxime", 24);
             Etudiant etu2 = new Etudiant("Koprulu", "Ilhan", 20);
             Console.WriteLine(etu1.GetNomComplet());
-            
+
         }
 
         public class Etudiant
@@ -76,4 +76,6 @@
                 }
                 return null;
             }
+        }
+    }
 }
