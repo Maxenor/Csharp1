@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SnakeGame
+﻿namespace SnakeGame
 {
     class Program
     {
@@ -19,7 +17,7 @@ namespace SnakeGame
         private int[] grid_y;
         private List<Position> snakePositions;
         private Position foodPosition;
-        private Direction currentDirection;
+        private Direction currentDirection = Direction.Immobile;
         private int score;
         Direction? direction = null;
 
@@ -39,12 +37,12 @@ namespace SnakeGame
             while (true)
             {
                 System.Threading.Thread.Sleep(25);
-                Update();
-                Render();
-                while (Console.KeyAvailable && !direction.HasValue)
+                if (Console.KeyAvailable && !direction.HasValue)
                 {
                     KeyPressed();
                 }
+                Update();
+                Render();
             }
         }
         // mise a jour de l'affichage
@@ -58,6 +56,7 @@ namespace SnakeGame
             }
         }
 
+        // génération de la grille
         private void Render()
         {
             Console.CursorVisible = false;
@@ -83,7 +82,7 @@ namespace SnakeGame
 
                     // affichage
                     if (isSnakeHere)
-                        {
+                    {
                         Console.Write("@", ConsoleColor.Red);
                     }
                     else if (isFood)
@@ -98,6 +97,7 @@ namespace SnakeGame
                 Console.WriteLine();
             }
         }
+        // gestion du mouvement
         private void KeyPressed()
         {
             ConsoleKeyInfo keyInfo = Console.ReadKey();
@@ -117,6 +117,7 @@ namespace SnakeGame
                     break;
             }
         }
+        // déplacement du serpent
         private void MoveSnake()
         {
             Position head = snakePositions[0];
@@ -145,20 +146,26 @@ namespace SnakeGame
             else
             {
                 // vérifie si le serpent se mord
-                foreach (Position pos in snakePositions)
+                if (currentDirection != Direction.Immobile)
                 {
-                    if (pos.X == newHead.X && pos.Y == newHead.Y)
+                    foreach (Position pos in snakePositions)
                     {
-                        EndGame();
-                        return;
+                        if (pos.X == newHead.X && pos.Y == newHead.Y)
+                        {
+                            EndGame();
+                            return;
+                        }
                     }
-                }
-                snakePositions.Insert(0, newHead);
-                if (snakePositions.Count > this.score + 1)
-                    snakePositions.RemoveAt(snakePositions.Count - 1);
+                    snakePositions.Insert(0, newHead);
+                    if (snakePositions.Count > this.score + 1)
+                    {
+                        snakePositions.RemoveAt(snakePositions.Count - 1);
+                    }
+
+                }   
             }
         }
-
+        // vérification si la tête du serpent a mangé un fruit
         private void CheckForFood()
         {
             Position head = snakePositions[0];
@@ -168,6 +175,7 @@ namespace SnakeGame
                 this.score++;
             }
         }
+        // Génération de la position d'un fruit
         private void GenerateFoodPosition()
         {
             Random random = new Random();
@@ -179,7 +187,7 @@ namespace SnakeGame
                 bool isValid = true;
                 foreach (Position pos in snakePositions)
                 {
-                    if (pos.X == x && pos.Y == y)   
+                    if (pos.X == x && pos.Y == y)
 
                     {
                         isValid = false;
@@ -194,6 +202,7 @@ namespace SnakeGame
                 }
             }
         }
+        // fin du jeu
         private void EndGame()
         {
             Console.Clear();
@@ -203,7 +212,8 @@ namespace SnakeGame
 
             Environment.Exit(0);
         }
-        
+
+        // victoire
         private void Victory()
         {
             Console.Clear();
@@ -220,8 +230,10 @@ namespace SnakeGame
         Up,
         Down,
         Left,
-        Right
+        Right,
+        Immobile
     }
+    // la position des éléments
     public class Position
     {
         public int X { get; set; }

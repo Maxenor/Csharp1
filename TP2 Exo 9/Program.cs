@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace TP2_Exo_8
+﻿namespace TP2_Exo_8
 {
     class Program
     {
@@ -78,17 +76,4 @@ namespace TP2_Exo_8
                 }
                 return null;
             }
-
-            public void printMajeurs()
-            {
-                foreach (Etudiant etudiant in ListeEtudiants)
-                {
-                    if (etudiant.EstMajeur())
-                    {
-                        Console.WriteLine(etudiant.GetNomComplet());
-                    }
-                }
-            }
-        }
-    }
 }
